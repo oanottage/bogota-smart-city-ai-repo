@@ -1,9 +1,35 @@
 bogota-smart-city-ai
 ==============================
 
-An end to end AI-driven project for improving mobility in Bogota
+**Project Overview: Building a Smart City Transportation Solution**
 
-Project Organization
+**Goal:**
+------------
+Develop an AI-driven platform that integrates multiple Bogotá transport datasets—including TransMilenio bicycle stations, trunk system departures, road accident data, and more—to predict congestion hot spots and recommend optimal mobility solutions (e.g., bike routes, better scheduling for public transit, etc.).
+
+
+**Datasets We’ll Use:**
+------------
+
+bike-stations: TransMilenio bicycle stations (average entries at bike stations) - https://datosabiertos.bogota.gov.co/dataset/cicloparqueaderos-de-transmilenio
+
+reference-map: Reference Map for Bogota DC (for geospatial data analysis) - https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia
+
+truck-departures: Consolidated Trunk System Departures by Time Zone (user departures by date/time slot) - https://datosabiertos.bogota.gov.co/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria
+
+accident-yearbook: Road Accident Yearbook (historical accident data) - https://datosabiertos.bogota.gov.co/dataset/anuario-siniestralidad
+
+consolidated-accidents: Consolidated Road Accidents in Bogotá DC (historical accident data) - https://datosabiertos.bogota.gov.co/dataset/siniestros-viales-consolidados-bogota-d-c
+
+cycle-route: Cycle Route (bike lane infrastructure in GeoJSON, SHP, etc.) - https://datosabiertos.bogota.gov.co/dataset/cicloruta-bogota-d-c
+
+bike-network: Bicycle Users Network (bike lane infrastructure in GeoJSON, SHP, etc.) - https://datosabiertos.bogota.gov.co/dataset/red-biciusuarios-bogota-d-c
+
+current-speed: Current Speed on Road (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/velocidad-actual-en-via-bogota-d-c
+
+incidents-on-via: Incidents on Via (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/incidentes-en-via-bogota-d-c
+
+**Project Organization**
 ------------
 
     ├── LICENSE
