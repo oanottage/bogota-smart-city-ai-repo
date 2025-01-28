@@ -25,9 +25,9 @@ cycle-route: Cycle Route (bike lane infrastructure in GeoJSON, SHP, etc.) - http
 
 bike-network: Bicycle Users Network (bike lane infrastructure in GeoJSON, SHP, etc.) - https://datosabiertos.bogota.gov.co/dataset/red-biciusuarios-bogota-d-c
 
-current-speed: Current Speed on Road (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/velocidad-actual-en-via-bogota-d-c
+(UNAVAILABLE) current-speed: Current Speed on Road (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/velocidad-actual-en-via-bogota-d-c
 
-incidents-on-via: Incidents on Via (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/incidentes-en-via-bogota-d-c
+(UNAVAILABLE) incidents-on-via: Incidents on Via (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/incidentes-en-via-bogota-d-c 
 
 **Project Organization**
 ------------
