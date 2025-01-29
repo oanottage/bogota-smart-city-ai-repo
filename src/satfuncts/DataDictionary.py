@@ -112,6 +112,10 @@ def generate_pdf_report(data_dict_df: pd.DataFrame, data_name: str, output_folde
     #save the dictionary to an excel file
     data_dict_df.to_excel(os.path.join(output_folder, f"{data_name}_data_dictionary.xlsx"), index=False)
 
+    #create an empty .md file for the data glossary
+    with open(os.path.join(output_folder, f"{data_name}_data_glossary.md"), 'w') as f:
+        f.write(f"# {data_name} – Data Glossary")
+
     # Create a PDF document
     doc = SimpleDocTemplate(pdf_filename, pagesize=LETTER)
 
