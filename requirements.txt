@@ -1,10 +1,105 @@
-# local package
--e .
-
-# external requirements
-click
-Sphinx
-coverage
-awscli
-flake8
-python-dotenv>=0.5.1
+altair==4.2.2
+annotated-types==0.7.0
+appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1733332318622/work
+arrow==1.3.0
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1733250440834/work
+attrs==25.1.0
+backoff==2.2.1
+beniget==0.4.2.post1
+binaryornot==0.4.4
+certifi==2024.12.14
+cffi==1.17.1
+chardet==5.2.0
+charset-normalizer==3.4.1
+click==8.1.8
+comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1733502965406/work
+contourpy==1.3.1
+cookiecutter==2.6.0
+cryptography==44.0.0
+cycler==0.12.1
+Cython==3.0.11
+debugpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6a37he2v_t/croot/debugpy_1736267437603/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1733236420667/work
+entrypoints==0.4
+et_xmlfile==2.0.0
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1733208806608/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1733569351617/work
+fonttools==4.55.8
+gast==0.6.0
+geopandas==1.0.1
+great-expectations==1.3.4
+idna==3.10
+importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1737420181517/work
+ipykernel @ file:///Users/runner/miniforge3/conda-bld/ipykernel_1719845458456/work
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1734788142186/work
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1733300866624/work
+Jinja2==3.1.5
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1733440914442/work
+jupyter_core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1727163409502/work
+kiwisolver==1.4.8
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+marshmallow==3.26.0
+matplotlib==3.10.0
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
+mdurl==0.1.2
+mistune==3.1.1
+monotonic==1.6
+nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
+numpy==1.26.4
+openpyxl==3.1.5
+packaging==24.2
+pandas==2.1.4
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1733271261340/work
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1733301927746/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work
+pillow==11.1.0
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1733232627818/work
+ply==3.11
+posthog==3.11.0
+prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1737453357274/work
+psutil @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_10oa1k8l11/croot/psutil_1736367646006/work
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
+pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
+pyarrow==19.0.0
+pybind11==2.13.6
+pycparser==2.22
+pydantic==2.10.6
+pydantic_core==2.27.2
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1736243443484/work
+pyogrio==0.10.0
+pyparsing==3.2.1
+pyproj==3.7.0
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+python-slugify==8.0.4
+pythran==0.17.0
+pytz==2024.2
+PyYAML==6.0.2
+pyzmq @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_95lsut8ymz/croot/pyzmq_1734709560733/work
+referencing==0.36.2
+reportlab==4.2.5
+requests==2.32.3
+rich==13.9.4
+rpds-py==0.22.3
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+scipy==1.15.1
+seaborn==0.13.2
+shapely==2.0.6
+six==1.17.0
+stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
+text-unidecode==1.3
+toolz==1.0.0
+tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0axef5a0m0/croot/tornado_1733960501260/work
+tqdm==4.67.1
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
+types-python-dateutil==2.9.0.20241206
+typing_extensions==4.12.2
+tzdata==2025.1
+tzlocal==5.2
+urllib3==2.3.0
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1733231326287/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
