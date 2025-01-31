@@ -5,15 +5,15 @@ Done
 Exploratory Data Analysis (EDA) - For data exploration and reporting.
 Done
 
-Great Expectations - For data validation and quality checks.
-Deadline: week 1
-Done
-
 DVC - Data version control for large files.
 Deadline: week 1
 Done
 
 GitHub - Code versioning and collaboration.
+Deadline: week 1
+Done
+
+Great Expectations - For data validation and quality checks.
 Deadline: week 1
 Done
 
