@@ -9,13 +9,13 @@ Great Expectations - For data validation and quality checks.
 Deadline: week 1
 Done
 
-GitHub - Code versioning and collaboration.
+DVC - Data version control for large files.
 Deadline: week 1
 Done
 
-DVC - Data version control for large files.
+GitHub - Code versioning and collaboration.
 Deadline: week 1
-
+Done
 
 Hydra - Configuring environment and training parameters.
 Deadline: week 1
