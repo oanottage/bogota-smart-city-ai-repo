@@ -1,0 +1,1 @@
+# geo_crnloc – Data Glossary

@@ -1,0 +1,1 @@
+# geo_crnscat – Data Glossary
