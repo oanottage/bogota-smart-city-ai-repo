@@ -1,0 +1,94 @@
+
+<html>
+<head>
+    <title>Data Validation Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1, h2 { color: #2F4F4F; }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Data Validation Report</h1>
+    
+    <h2>Summary Statistics</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>proportion</th>
+    </tr>
+    <tr>
+      <th>success</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>True</th>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+    
+    <h2>Validation Results by Expectation Type</h2>
+    <img src="validation_results_by_expectation_type.png" alt="Validation Results by Expectation Type">
+    
+    <h2>Overall Success Rate</h2>
+    <img src="overall_success_rate.png" alt="Overall Success Rate">
+    
+    <h2>Success Rate per Column</h2>
+    <img src="success_rate_per_column.png" alt="Success Rate per Column">
+    
+    <h2>Unexpected Values Overview</h2>
+    <img src="unexpected_values_overview.png" alt="Unexpected Values Overview">
+    
+    <h2>Detailed Validation Results</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>expectation_type</th>
+      <th>column</th>
+      <th>success</th>
+      <th>unexpected_count</th>
+      <th>unexpected_percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ExpectColumnToExist</td>
+      <td>Codigo contable</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>ExpectColumnValuesToNotBeNull</td>
+      <td>Codigo contable</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>ExpectColumnValuesToBeOfType</td>
+      <td>Codigo contable</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>ExpectColumnValuesToBeBetween</td>
+      <td>Codigo contable</td>
+      <td>True</td>
+      <td>0</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
