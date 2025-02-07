@@ -5,29 +5,36 @@ bogota-smart-city-ai
 
 **Goal:**
 ------------
-Develop an AI-driven platform that integrates multiple Bogotá transport datasets—including TransMilenio bicycle stations, trunk system departures, road accident data, and more—to predict congestion hot spots and recommend optimal mobility solutions (e.g., bike routes, better scheduling for public transit, etc.).
+Develop an Big Data and AI-driven platform that integrates multiple Bogotá transport datasets to understand congestion hot spots and recommend optimal mobility solutions (e.g., bike routes, better scheduling for public transit, etc.).
 
 
-**Datasets We’ll Use:**
-------------
+**Datasets We’ll Use:**  
+------------  
 
-bike-stations: TransMilenio bicycle stations (average entries at bike stations) - https://datosabiertos.bogota.gov.co/dataset/cicloparqueaderos-de-transmilenio
+### **Civil Service**  
+- **control-politico.csv**: Political control records and legislative activities. - https://datosabiertos.bogota.gov.co/dataset/control-politico
 
-reference-map: Reference Map for Bogota DC (for geospatial data analysis) - https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia
+### **Economy & Finance**  
+- **cgn001-metadata.csv**: Metadata for CGN001 financial dataset. - https://datosabiertos.bogota.gov.co/dataset/consolidados-de-bogota-d-c
+- **cgn001.csv**: Financial records related to economic analysis. - https://datosabiertos.bogota.gov.co/dataset/consolidados-de-bogota-d-c
+- **judiciales-informe-procesos-1er-trimestre-2019.csv**: Judicial report on legal processes for the first quarter of 2019. - https://datosabiertos.bogota.gov.co/dataset/informe-de-procesos-judiciales-1er-trimestre-2019
+- **judiciales-metadata-procesos-2019.csv**: Metadata for the judicial processes dataset of 2019. - https://datosabiertos.bogota.gov.co/dataset/informe-de-procesos-judiciales-1er-trimestre-2019
 
-truck-departures: Consolidated Trunk System Departures by Time Zone (user departures by date/time slot) - https://datosabiertos.bogota.gov.co/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria
+### **Security & Defense**  
+- **CRNLoc.geojson**: Geospatial representation of security zones. - https://datosabiertos.bogota.gov.co/dataset/medida-correctiva-bogota-d-c
+- **CRNSCAT.geojson**: Geospatial security categorization data. - https://datosabiertos.bogota.gov.co/dataset/medida-correctiva-bogota-d-c
+- **CRNUPZ.geojson**: Urban Planning Zones (UPZ) geospatial data for security analysis. - https://datosabiertos.bogota.gov.co/dataset/medida-correctiva-bogota-d-c
+- **DAILoc.geojson**: Location-specific security incidents in GeoJSON format. - https://datosabiertos.bogota.gov.co/dataset/delito-de-alto-impacto-bogota-d-c
+- **definicioncampos.csv**: Field definitions for security datasets. - https://datosabiertos.bogota.gov.co/dataset/incidentes
+- **guiatipificacionincidentes.csv**: Incident classification guide. - https://datosabiertos.bogota.gov.co/dataset/incidentes
+- **llamadastramitadas-c4-bogota_numerounicodeseguridadyemergencias-nuse_linea-123-a-31dic2024.csv**: Security and emergency call records processed through the C4 system in Bogotá. - https://datosabiertos.bogota.gov.co/dataset/incidentes
 
-accident-yearbook: Road Accident Yearbook (historical accident data) - https://datosabiertos.bogota.gov.co/dataset/anuario-siniestralidad
+### **Transport**  
+- **consolidado-de-salidas-sistema-troncal-por-franja-horaria-noviembre-2024.csv**: Consolidated Trunk System Departures by Time Zone (user departures by date/time slot). - https://datosabiertos.bogota.gov.co/dataset/consolidado-de-salidas-sistema-troncal-por-franja-horaria
 
-consolidated-accidents: Consolidated Road Accidents in Bogotá DC (historical accident data) - https://datosabiertos.bogota.gov.co/dataset/siniestros-viales-consolidados-bogota-d-c
+---  
 
-cycle-route: Cycle Route (bike lane infrastructure in GeoJSON, SHP, etc.) - https://datosabiertos.bogota.gov.co/dataset/cicloruta-bogota-d-c
-
-bike-network: Bicycle Users Network (bike lane infrastructure in GeoJSON, SHP, etc.) - https://datosabiertos.bogota.gov.co/dataset/red-biciusuarios-bogota-d-c
-
-(UNAVAILABLE) current-speed: Current Speed on Road (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/velocidad-actual-en-via-bogota-d-c
-
-(UNAVAILABLE) incidents-on-via: Incidents on Via (for real-time or historical traffic insights) - https://datosabiertos.bogota.gov.co/dataset/incidentes-en-via-bogota-d-c 
+This list reflects the datasets available for analysis, covering sectors such as **civil service, economy & finance, security & defense, and transportation**. Each dataset provides valuable insights for policy-making, economic trends, security management, and public transport efficiency.  
 
 **Project Organization**
 ------------
