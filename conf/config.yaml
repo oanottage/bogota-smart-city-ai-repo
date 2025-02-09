@@ -1,0 +1,16 @@
+# conf/config.yaml
+# Core data paths
+data:
+  raw_dir: data/raw
+  processed_dir: data/2_Silver/incidences.parquet
+  # We'll override or expand these if needed
+# Model selection
+model:
+  name: default
+  params:
+    # We'll define or override in specialized configs
+    lr: 0.01
+    n_estimators: 100
+
+defaults:
+  env: prod  # prod is default unless overridden

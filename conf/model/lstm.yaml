@@ -1,0 +1,8 @@
+# conf/model/lstm.yaml
+model:
+  name: "lstm"
+  params:
+    learning_rate: 0.001
+    hidden_size: 128
+    num_layers: 2
+    epochs: 20
