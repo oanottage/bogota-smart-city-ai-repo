@@ -1,0 +1,18 @@
+data:
+  raw_dir: data/raw
+  processed_dir: data/3_Gold/incidences_normalized.parquet
+model:
+  name: kmeans
+  params:
+    n_clusters: 5
+    init: k-means++
+    max_iter: 300
+    random_state: 42
+env:
+  env:
+    name: prod
+    data_sample_ratio: 1.0
+codecarbon:
+  save_dir: reports/codecarbon
+  output_format: csv
+  country_iso_code: CO

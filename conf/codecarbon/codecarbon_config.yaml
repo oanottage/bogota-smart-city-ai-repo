@@ -1,0 +1,4 @@
+# codecarbon_config.yaml
+save_dir: "reports/codecarbon"
+output_format: "csv"  # Options: csv, json, tensorboard, etc.
+country_iso_code: "CO"  # ISO code for Colombia

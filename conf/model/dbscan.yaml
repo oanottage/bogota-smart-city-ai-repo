@@ -1,6 +1,5 @@
 # conf/model/dbscan.yaml
-model:
-  name: "dbscan"
-  params:
-    eps: 0.5
-    min_samples: 5
+name: "dbscan"
+params:
+  eps: 0.5
+  min_samples: 5

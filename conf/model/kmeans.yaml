@@ -1,8 +1,7 @@
-# conf/model/kmeans.yaml
-model:
-  name: "kmeans"
-  params:
-    n_clusters: 5
-    init: "k-means++"
-    max_iter: 300
-    random_state: 42
+# conf/model/kmeans.yaml (correct)
+name: kmeans
+params:
+  n_clusters: 5
+  init: "k-means++"
+  max_iter: 300
+  random_state: 42

@@ -1,8 +1,7 @@
 # conf/model/logistic_regression.yaml
-model:
-  name: "logistic_regression"
-  params:
-    penalty: "l2"
-    C: 1.0
-    solver: "lbfgs"
-    max_iter: 100
+name: "logistic_regression"
+params:
+  penalty: "l2"
+  C: 1.0
+  solver: "lbfgs"
+  max_iter: 100

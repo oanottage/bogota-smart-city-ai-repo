@@ -1,0 +1,5 @@
+# conf/model/default.yaml
+name: default
+params:
+  lr: 0.01
+  n_estimators: 100
