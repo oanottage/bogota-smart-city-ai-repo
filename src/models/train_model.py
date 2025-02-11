@@ -99,6 +99,15 @@ def main(cfg: DictConfig):
             model = KMeans(**params)
             model.fit(x)
             print("KMeans clustering complete.")
+
+            #use the model to predict the cluster labels for x
+
+            df = pd.DataFrame(x)
+            df["cluster"] = model.predict(x)
+
+            df.to_parquet(os.path.join(BASE_PATH, "data/3_Gold/clustered_data.parquet"))
+
+
             print("Cluster centers:")
             print(model.cluster_centers_)
             print("Cluster labels:")
@@ -107,6 +116,7 @@ def main(cfg: DictConfig):
             unique_clusters = len(set(model.labels_))
             print("Unique cluster labels:")
             print(unique_clusters)
+            
 
             input_example = x[:5]
 
@@ -124,6 +134,8 @@ def main(cfg: DictConfig):
                 signature=signature,
                 input_example=input_example,
             )
+
+            # s
 
         elif model_name == "dbscan":
             model = DBSCAN(**params)
