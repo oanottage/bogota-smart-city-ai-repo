@@ -1,0 +1,10 @@
+# TransMilenio Community Engagement & Safety Enhancement (TMCESE)
+
+## Why it's a good fit:
+Sentiment Analysis & Crowdsourced Reporting: This project focuses on community-driven safety initiatives and could utilize open-source social media data (such as Twitter, Facebook, or Instagram posts). Sentiment analysis can be performed on these platforms to gauge public perception about safety, and crowdsourced data on incidents could be gathered from the public domain.
+User Feedback Integration: Instead of relying on internal systems, you can collect real-time user feedback from social media and build sentiment dashboards to understand how the public feels about safety at specific times and stations. Tools for crowdsourced reporting can also be developed based on publicly available data, such as users sharing incident reports on open forums or platforms.
+
+## How to proceed:
+Scrape social media platforms for sentiment regarding TransMilenio’s safety.
+Use text analysis and sentiment analysis to process public opinions and detect shifts in sentiment that can signal safety concerns.
+Integrate crowdsourced reporting apps (building on open-source tools) to collect user feedback about specific incidents in real time.

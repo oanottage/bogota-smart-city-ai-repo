@@ -1,0 +1,10 @@
+# TransMilenio Predictive Safety & Optimization System (TMPSOS)
+
+## Why it's a good fit:
+Open Data Utilization: This project could leverage publicly available datasets such as historical crime data, traffic data, and weather information. For example, many cities release crime data and traffic data in real-time or historical formats that you can use to make predictions about safety concerns and optimize bus schedules.
+AI & Predictive Analytics: Your team can use AI and machine learning to analyze historical patterns, identify high-risk areas, and predict incidents based on external data sources (e.g., weather events, traffic congestion, and past crime data).
+Real-time Optimization: Using publicly available traffic and mobility data (like traffic patterns, road closures, and congestion), you can optimize bus schedules to reduce delays. This can be implemented using AI and big data tools without requiring data from TransMilenio's internal systems.
+
+## How to proceed:
+Collect open data sources from the local government (traffic data, crime data, weather conditions).
+Use machine learning models to predict areas and times of risk (safety incidents) and optimize scheduling to reduce delays.
