@@ -1,0 +1,82 @@
+## DEBONO HATS PHASE 2
+
+## Point of View 2: 
+"The lack of perceived safety in the TransMilenio, especially during peak hours, drives citizens to prefer private vehicles, further contributing to Bogotá's transportation challenges."
+<b>Claim:</b> Citizens feel unsafe using TransMilenio, with overcrowding and security concerns deterring use (LINK 4-5 and Claim 5).
+<b>Documents:</b> "Ciudad de Bolívar" and "Cartilla Encuesta de Movilidad 2023" discuss how security concerns, particularly during peak hours, contribute to the preference for private vehicles over public transportation, impacting Bogotá's goal of reducing congestion.
+
+---
+
+## Cluster 2: Crime & Security Measures
+
+**Focus:** Tackle perceived and actual security concerns, targeting crime hotspots, and deploying advanced surveillance.
+
+### From **How Might We (HMW)**
+
+1. **HMW #2 (Remove the Bad)**  
+   > **“HMW: How might we decrease the perceived lack of safety by addressing concerns around crime in the TransMilenio system?  
+   Answer: Data analysis of crime hotspots, combined with predictive AI, could assist in deploying targeted security measures such as increased patrols or surveillance during high-risk times, helping to reduce the likelihood of incidents that contribute to safety concerns.”**
+
+### From **SCAMPER**
+
+1. **SCAMPER #7 (R – Reverse)**  
+   > **“Reverse the Conventional Monitoring Approach  
+   Example: Rather than monitoring only high-risk areas, use AI to map and continuously evaluate low-risk areas to understand what makes them safer. Reverse-engineering these conditions can help improve security in higher-risk zones.”**
+
+### From **Lotus Flower**
+
+- **Sub-Theme #2: Smart Surveillance Systems**  
+  > **“Enhancing surveillance through advanced technology increases the perceived and actual security of the system.  
+  - AI video analytics  
+  - Facial recognition integration  
+  - Automated threat detection  
+  - Infrared motion sensors  
+  - Behavior anomaly detection  
+  - Crowd density monitoring  
+  - 360-degree camera network  
+  - Cloud-based storage”**
+
+- **Sub-Theme #3: Real-Time Incident Alerts**  
+  > **“Immediate reporting and response are critical to manage and mitigate security incidents effectively.  
+  - Instant mobile notifications  
+  - Automated alert dispatch  
+  - Geo-tagged incident mapping  
+  - Push notification integration  
+  - Rapid response triggers  
+  - Emergency communication channels  
+  - Live situation dashboards  
+  - User-report integration”**
+
+---
+
+
+## White Hat (Facts and Information):
+* Bogotá has a population of over 7 million people, with a significant portion using the TransMilenio system.
+* The system has challenges with overcrowding, security concerns, and a generally low safety rating, as reflected in recent surveys.
+* Data analysis shows that the areas around TransMilenio terminals have high crime rates, with predictive AI and targeted security being potential solutions.
+* Specific neighborhoods around the terminals have been labeled with varying incident levels, from "A" (high-risk) to "E" (low-risk), helping identify security hot spots.
+
+
+## Red Hat (Feelings and Emotions):
+* Car users feel frustrated and fearful about the safety risks in TransMilenio, which make them prefer their private vehicles.
+* Public transport users expressed fear of theft and harassment, which is a barrier to using the service.
+* TransMilenio staff feel responsible but limited in resources, wanting more support to enhance safety.
+* Police officers expressed concern about their ability to effectively patrol the vast system and manage crime given the resources available.
+
+## Yellow Hat (Positives and Benefits):
+* Security improvements could increase public confidence in TransMilenio, potentially attracting more users and reducing reliance on private cars.
+* AI and predictive analytics could be used to deploy security resources more effectively, targeting high-risk areas and preventing incidents.
+* Improving safety could reduce traffic congestion and lower emissions by encouraging more people to use public transportation rather than private cars.
+* Increased security could make the system safer for both passengers and employees, leading to a more positive experience.
+
+## Black Hat (Risks and Challenges):
+* Overcrowding could worsen if more people switch to TransMilenio due to improved security, reducing the quality of service.
+* Costs associated with implementing advanced technologies, such as AI surveillance, could be high, and maintaining these systems could be difficult.
+* Privacy concerns were raised, especially with the use of surveillance technology, which could feel invasive to passengers.
+* Police resources remain a challenge—more officers and technology are needed, but managing the scale of TransMilenio is difficult, and crime can be unpredictable.
+
+## Green Hat (Creativity and Solutions):
+* AI-powered cameras could not only detect but also predict crime hotspots, enabling a more proactive approach to security.
+* A real-time feedback system could allow passengers to report safety issues, which could be acted upon immediately by staff and security.
+* Driver training could help improve responses to incidents on vehicles, empowering drivers to contribute to passenger safety.
+Real-time alerts could be sent to both passengers and security personnel, enabling faster responses to incidents as they arise.

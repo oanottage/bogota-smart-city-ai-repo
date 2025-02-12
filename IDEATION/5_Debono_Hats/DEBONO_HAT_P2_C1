@@ -1,0 +1,74 @@
+## DEBONO HATS PHASE 2
+
+## Point of View 2: 
+"The lack of perceived safety in the TransMilenio, especially during peak hours, drives citizens to prefer private vehicles, further contributing to Bogotá's transportation challenges."
+<b>Claim:</b> Citizens feel unsafe using TransMilenio, with overcrowding and security concerns deterring use (LINK 4-5 and Claim 5).
+<b>Documents:</b> "Ciudad de Bolívar" and "Cartilla Encuesta de Movilidad 2023" discuss how security concerns, particularly during peak hours, contribute to the preference for private vehicles over public transportation, impacting Bogotá's goal of reducing congestion.
+
+---
+
+## Cluster 1: Overcrowding & Capacity Management
+
+**Focus:** Address physical crowding, optimize bus frequency, and enhance passenger comfort during peak hours.
+
+### From **How Might We (HMW)**
+
+1. **HMW #1 (Amplify the Good)**  
+   > **“HMW: How might we enhance the experience of passengers during peak hours, so they feel safer and more comfortable?  
+   Answer: Using data from customer feedback and congestion patterns, AI could model how improvements like better crowd management, increased service frequency, or redesigned layouts can help reduce discomfort and increase safety perception during peak hours.”**
+
+2. **HMW #5 (Go After Adjectives)**  
+   > **“HMW: How might we make TransMilenio feel ‘efficient’ and ‘responsive’ in managing overcrowding during peak times?  
+   Answer: Using real-time data and predictive analytics, AI could help optimize the allocation of buses, adjust schedules dynamically based on traffic, and inform passengers in real time of the best travel options, creating a feeling of responsiveness and efficiency.”**
+
+### From **SCAMPER**
+
+1. **SCAMPER #1 (S – Substitute)**  
+   > **“Substitute Static Timetables with Dynamic, Data-Driven Scheduling  
+   Example: Instead of relying on fixed schedules that often lead to overcrowding, use real-time traffic and ridership data to dynamically adjust bus frequency during peak hours. AI models can predict passenger surges and automatically adjust schedules, reducing the discomfort that contributes to safety concerns.”**
+
+2. **SCAMPER #2 (C – Combine)**  
+   > **“Combine Predictive Maintenance with Passenger Flow Analysis  
+   Example: Use AI to combine predictive maintenance data (available from open sources or previous studies) with passenger flow analytics to identify vulnerable points in the network where overcrowding and wear-and-tear may lead to safety issues.”**
+
+### From **Lotus Flower**
+
+- **Sub-Theme #1: Overcrowding Mitigation**  
+  > **“Addressing overcrowding is essential because crowded conditions not only decrease comfort but also increase the risk of incidents, further eroding public trust.  
+  - Real-time occupancy tracking  
+  - Smart crowd flow analysis  
+  - Dynamic platform management  
+  - Passenger distribution modeling  
+  - Adaptive scheduling algorithms  
+  - Predictive congestion alerts  
+  - Load balancing strategies  
+  - Virtual queue management”**
+
+---
+
+
+## White Hat (Facts and Information):
+* Bogotá's TransMilenio system is overcrowded, especially during peak hours, causing discomfort.
+* Security concerns (e.g., theft, harassment) are prevalent on TransMilenio, particularly in certain neighborhoods.
+* Public transport has a perception issue, with some citizens opting for private vehicles for better comfort and security.
+* Efforts are being made to improve service frequency and security measures, but challenges remain.
+
+## Red Hat (Feelings and Emotions):
+* Citizens feel frustrated and uncomfortable with the overcrowding and insecurity in TransMilenio.
+* There is a sense of conflict among some passengers, as they are torn between the comfort and security of private vehicles and the need for public transportation.
+* Drivers and police officers also express stress and concern about the situation, noting the emotional toll on passengers and the difficulty of managing the service under current conditions.
+
+## Yellow Hat (Positives and Benefits):
+* If security and comfort are addressed, TransMilenio could become a more attractive and sustainable transportation option.
+* Optimizing TransMilenio could reduce traffic congestion, benefiting the environment and traffic flow.
+* AI-driven improvements, such as dynamic scheduling and better crowd management, could significantly enhance the experience for passengers and make the system more responsive.
+
+## Black Hat (Risks and Challenges):
+* Even if improvements are made, deep-rooted security concerns may prevent some people from trusting the system, making them prefer private cars.
+* Adding more buses to alleviate overcrowding may contribute to road congestion, worsening traffic.
+* Addressing crime in certain neighborhoods is a long-term challenge, and increased police presence may not be enough on its own.
+
+## Green Hat (Creativity and Solutions):
+* Propose integrating private car rides with public transport using a mobile app, giving passengers the flexibility to choose their mode of transportation based on real-time data.
+* Suggest dynamic crowd management strategies, including express buses during peak hours and better passenger distribution at stations.
+Advocate for AI integration to predict overcrowding and adjust scheduling, improving overall efficiency and comfort.
