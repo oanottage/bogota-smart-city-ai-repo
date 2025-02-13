@@ -19,6 +19,7 @@ from dotenv import load_dotenv
 from mlflow.models.signature import infer_signature
 from omegaconf import DictConfig
 from sklearn.cluster import DBSCAN, KMeans
+import joblib
 
 load_dotenv()
 
@@ -112,6 +113,8 @@ def main(cfg: DictConfig):
             print(model.cluster_centers_)
             print("Cluster labels:")
             print(model.labels_)
+            print("Model parameters:")
+            print(model.get_params())
 
             unique_clusters = len(set(model.labels_))
             print("Unique cluster labels:")
@@ -128,14 +131,13 @@ def main(cfg: DictConfig):
             emissions = tracker.stop()
             mlflow.log_metric("CO2_kg", emissions)
 
+            #Log the model parameters
             mlflow.sklearn.log_model(
                 model,
                 artifact_path="models/kmeans",
                 signature=signature,
                 input_example=input_example,
             )
-
-            # s
 
         elif model_name == "dbscan":
             model = DBSCAN(**params)

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/onassisnottage/Desktop/SMART_CITY_AI/Bogota_Colombia/bogota-smart-city-ai-repo/mlruns/252850428605173686/3a01c27a93dd433ebb92a1b854bd4669/artifacts
+end_time: 1739479155700
+entry_point_name: ''
+experiment_id: '252850428605173686'
+lifecycle_stage: active
+run_id: 3a01c27a93dd433ebb92a1b854bd4669
+run_name: default_20250213_153915_run
+run_uuid: 3a01c27a93dd433ebb92a1b854bd4669
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739479155630
+status: 3
+tags: []
+user_id: onassisnottage
