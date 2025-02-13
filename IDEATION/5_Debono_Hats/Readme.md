@@ -116,5 +116,4 @@ Use the White Hat early to share all relevant facts.
 Red Hat helps surface emotional reactions—doing this before and/or after exploring pros/cons can uncover shifts in perspective.
 Yellow then Black ensures a balanced look at positives and risks.
 Green fuels creative possibilities to address challenges raised.
-A second Red Hat can capture how ideas and solutions might have influenced emotions.
 Finally, return to Blue Hat for a clear
